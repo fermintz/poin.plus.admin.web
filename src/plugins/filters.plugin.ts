@@ -6,6 +6,8 @@ moment.locale('ko');
 
 Vue.use(VueMoment, moment);
 
+Vue.prototype.$confirm = () => Promise.resolve(true);
+
 Vue.filter('amount', (value: number | string) => {
   if (typeof value === 'number') {
     return value.toLocaleString();
