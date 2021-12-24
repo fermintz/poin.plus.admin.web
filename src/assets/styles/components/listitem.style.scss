@@ -1,0 +1,10 @@
+@import '../values.scss';
+
+h4 {
+  color: $primary-color;
+}
+
+p {
+  background: aquamarine;
+  padding: $devider-margin-offset;
+}
