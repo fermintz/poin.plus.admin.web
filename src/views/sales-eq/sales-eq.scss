@@ -1,0 +1,154 @@
+.sales-list{
+  .search-opt{
+    padding:20px;
+
+    dl{
+      display:flex;
+      margin-bottom:10px;
+
+
+
+      dt{
+        width:90px;
+        margin-top:20px;
+        transform: translateY(-10px);
+      }
+      dd{
+        flex:1;
+      }
+    }
+
+    .search-btn{
+      width:100%;
+      background:#292929;
+      color:#fff;
+      min-height:45px;
+    }
+  }
+}
+.selector{
+  .v-btn{
+    width:100%;
+    justify-content: space-between;
+    border-radius:4px;
+    min-height:40px;
+    background:#f2f2f2;
+    padding:0 10px;
+
+    label{
+      font-size:14px;
+    } 
+  }
+  .v-menu__content{
+    box-shadow: 0;
+    left:0;
+  }
+}
+
+.selector-list{
+  border-top:1px solid #e2e2e2;
+  background:#fff;
+  width:100%;
+
+  
+  span{
+    font-size:13px;
+    display:flex;
+    align-items: center;
+    min-height:50px;
+    padding:0 20px;
+  }
+}
+
+.date-selector{
+  margin:0;
+
+  input{
+    width:100%;
+    height:40px;
+  }
+
+  .date-btns{
+    display:flex;
+    align-items: center;
+    border:1px solid #d2d2d2;
+    margin-top:8px;
+    border-radius:4px;
+    overflow: hidden;
+
+    .v-btn{
+      flex:1;
+      border-radius:0;
+      border-right:1px solid #d2d2d2;
+      max-height:40px;
+      &:last-child{
+        border-right:0;
+      }
+    }
+  }
+}
+
+.list{
+  .summary{
+    dl{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      height:50px;
+      padding:0 20px;
+      border-bottom:1px solid #e2e2e2;
+
+      dd{
+        font-size:16px;
+        font-weight:500;
+      }
+    }
+  }
+}
+
+.sales-eq-item{
+  padding:20px;
+  border-bottom:1px solid #e2e2e2;
+
+  span{
+    display:inline-block;
+    font-size:11px;
+    color:#1468E6;
+    margin-bottom:3px;
+  }
+  strong{
+    display:block;
+    font-size:15px;
+    font-weight:500;
+    margin-bottom:10px;
+  }
+
+  .divider{
+    margin:10px 0;
+  }
+  dl{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:5px;
+    &:last-child{
+      margin-bottom:0px;
+    }
+
+    dt{
+      color:#898989;
+
+      label{
+        color:#292929;
+        margin-left:5px;
+      }
+    }
+  }
+
+  dl.total{
+    dd{
+      font-size:14px;
+      font-weight:500;
+    }
+  }
+}

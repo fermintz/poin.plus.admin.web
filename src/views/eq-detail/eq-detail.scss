@@ -1,0 +1,157 @@
+.eq-detail{
+  .sub-header{
+    height:60px;
+    display:flex;
+    align-items: center;
+    padding:0 10px;
+
+    .v-btn{
+      height:50px;
+      width:50px;
+      margin-right:10px;
+    }
+  }
+
+  .eq-info{
+    padding:20px;
+
+    dl{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom:8px;
+
+      &:last-child{
+        margin-bottom:0px;
+      }
+      dt{
+      }
+      dd{
+        display:flex;
+      }
+    }
+
+    dl.type{
+      dd{
+        span{
+          background:#EDF0F5;
+          padding:0 5px;
+        }
+      }
+    }
+
+    .btns{
+      display:flex;
+      margin-top:15px;
+      .v-btn{
+        flex:1;
+        border:1px solid #d2d2d2;
+        margin-right:10px;
+        font-size:12px;
+  
+        &:last-child{
+          margin-right:0px;
+        }
+      }
+    }
+  }
+
+  .list{
+    padding:0 20px;
+    padding-bottom:20px;
+
+    .list-title{
+      height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h3{
+        span{
+          color:#de0059
+        }
+      }
+    }
+
+    
+
+    .product-card{
+      position: relative;
+      border:1px solid #e2e2e2;
+      padding:12px;
+      border-radius:4px;
+      margin-bottom:15px;
+      box-shadow: 3px 3px 12px rgba(0,0,0,0.05);
+
+      &:last-child{
+        margin-bottom:0px;
+      }
+
+      .del{
+        position: absolute;
+        width:26px;
+        height:26px;
+        border-radius:15px;
+        top:10px;
+        right:10px;
+        background:#292929;
+        .v-icon{color:#fff;font-size:18px;}
+      }
+
+      .divider{
+        margin:15px 0;
+      }
+
+      .card-title{
+        display:flex;
+        flex-direction: column;
+
+        strong{
+          font-size:16px;
+        }
+        span{
+          color:#0066FF;
+        }
+      }
+      .card-content{
+        display:flex;
+        align-items: center;
+
+        dl{
+          flex:1;
+          border-right:1px solid #e2e2e2;
+          margin-right:10px;
+          padding-right:10px;
+
+          &:last-child{
+            border-right:0;
+            margin-right:0;
+          }
+
+          dt{
+            font-size:10px;
+            font-weight:normal;
+            color:#898989;
+          }
+
+          dd{
+            margin-top:5px;
+            font-size:14px;
+            font-weight:500;
+          }
+        }
+      }
+
+      .btns{
+        display:flex;
+        margin-top:15px;
+        .v-btn{
+          flex:1;
+          border-radius:4px;
+          border:1px solid #d2d2d2;
+          height:40px;
+        }
+      }
+    }
+  }
+}
