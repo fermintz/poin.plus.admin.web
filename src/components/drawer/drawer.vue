@@ -7,7 +7,10 @@
   > 
     <div class="drawer">
       <div class="top">
-        안녕!
+        <h2>안녕하세요!</h2>
+        <div class="btns">
+          <v-btn text rounded>로그아웃</v-btn>
+        </div>
       </div>
 
       <div class="inner">
